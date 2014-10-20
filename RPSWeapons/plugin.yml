@@ -1,0 +1,67 @@
+#
+#YAML pour MineCity et RolePlaySpeciality
+#
+
+
+name: RolePlaySpecialityWeapons
+main: helldragger.RPSWeapons.RPSWPlugin
+version: 0.85
+author: Helldragger (RolePlaySpeciality creator)
+softdepend: [RolePlaySpeciality,bPermissions,Vault] 
+
+commands:
+ rpw:
+  description: Commande principale de RolePlaySpeciality Weapons.
+  usage: /rpw <command>
+ level:
+  description: Commande de création d'items levellés.
+  usage: /level
+  
+permissions:
+ roleplayspecialityweapons.*:
+   description: Allows full plugin usage.
+   default: false
+   children:
+     roleplayspecialityweapons.reload: true
+     roleplayspecialityweapons.setlevel: true
+     roleplayspecialityweapons.level: true
+     roleplayspecialityweapons.level.remove: true
+     roleplayspecialityweapons.maxlevel.override: true
+     roleplayspecialityweapons.level.buy: true
+
+ roleplayspecialityweapons.stage.null:
+   description: Used if no stages are available. Should never be false.
+   default: true
+
+ roleplayspecialityweapons.level:
+   description: Used to create levelled items with /level command.
+   default: false
+
+ roleplayspecialityweapons.level.buy:
+   description: Used to pay levels on levelled items with /level buy command.
+   default: false
+
+ roleplayspecialityweapons.level.remove:
+   description: Used to remove levels on levelled items with /level remove command.
+   default: false
+
+ roleplayspecialityweapons.setlevel:
+   description: Allow to change item's level. 
+   default: false
+
+ roleplayspecialityweapons.stage.<stagename>:
+   description: Allow usage of <stagename> level.
+
+ roleplayspecialityweapons.reload:
+   description: Allows usage of the reload command.
+   default: false
+
+ roleplayspecialityweapons.maxlevel:
+   description: Allows to reach the defined max level.
+   default: false
+
+ roleplayspecialityweapons.maxlevel.override: 
+   description: Allows to reach levels above defined max level.
+   default: false
+   children:
+     roleplayspecialityweapons.maxlevels: true   

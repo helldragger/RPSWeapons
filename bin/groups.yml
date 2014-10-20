@@ -1,0 +1,13 @@
+#Name of differents categories of minecraft's items
+weapons:
+#Names of differents names per stage (1rst stage = basic, 2nd = good, ...)
+#don't forget to create every new personalized stage in stages.yml to make it effective. 
+  stages: basic, good, better, great, best
+#Bonuses that will be evolving with this group's item's level.
+  bonuses: damage
+armor:
+  stages: basic, good, better, great, best
+  bonuses: armor
+tools:
+  stages: basic, good, better, great, best
+  bonuses: fishing

@@ -1,0 +1,128 @@
+###############################
+##########CONFIG FILE############
+#####  FILE: Config.yml     #####
+####
+#### *General
+#### *Colors
+#### *Money
+#### *Levelling
+####
+#####                      ######
+##########             ##########
+###############################
+   ########################
+
+#####GENERAL CONFIGURATION#####
+general:
+ use permissions: false
+
+ #En/disable the creation of levelled items by crafting them. (Emerald on Book_And_Quill on item)
+ use crafting system: false
+ 
+ #En/Disable auto-updater notification
+ use auto-update notifier: true
+ 
+ #Dis/Allow auto-updater to download latest version of this plugin (may cause version compatibility bugs!)
+ download latest version automatically: false
+ 
+ #En/Disable Debug mode (for developping purpose only)
+ debug mode enabled: false
+ 
+ #Determine the lenght of stages rp description before going to another line on items.
+ stages RP description line lenght: 50
+ 
+ #Use alternate and configurable item list names.yml instead of plugin default values. BUGGED
+# use alternate item list: true
+ 
+ #En/Disable the xp gain from killing mob spawned by spawners.
+ disable mob spawners: true
+ 
+ #Determine the xp bar lenght
+ #more than 55 is not recommended
+ xp bar lenght: 50
+ 
+#    Unused configuration:
+#    
+#    crafting ratio
+ crafting ratio: 2 
+ 
+ cancel use of leveled items beyond your permissions: true
+ 
+######COLORS CONFIGURATION#####
+colors:
+ item description color: GRAY
+ item experience bar color: GREEN
+ 
+######MONEY CONFIGURATION######
+money:
+
+ #wooden utils default money value 
+ #(others materials are calculated proportionnally)
+ wooden utils default value: 10
+ 
+ #level 1 enchantment value
+ basic enchantment value: 150
+ 
+ # Using /level buy
+ # this command's cost is calculated with ((xpleftbeforelvlup / xpDivider)*xpCostMultiplier)
+ xp Divider: 100
+ xp cost multiplier: 100
+ 
+ 
+######LEVELLING CONFIGURATION#####
+levelling:
+ #Determine the maximum level a weapon can reach
+ maximum level reachable: 20
+ 
+ #Multiplier that will decide the amount of xp needed  to level up
+ # default = 30; must never be less than 1!
+ xp multiplier (xpmax = level*xpmultiplier): 30
+ 
+ #Determine if tools can be levelled.
+ normal items enabled: true
+ 
+ #Items who must not be able to be levelled
+ disabled items: none
+ 
+ #Determine the speed of the mastery stat growth. (More than 1000 is dangerous)
+ max mastery points per item: 100
+ 
+ #Determine the durability bonus given to items when rank up! 
+ durability bonus on rank up: 10
+ 
+ #En/Disable items rewards on stage up of items.
+ give items reward on stage up: true
+ 
+ #Experience gained when items level up 
+ experience on level up: 10 
+ 
+ #Experience gained by tools when hurting ennemies with weapons or breaking the correct block. It can't be less than 5 otherwise this value will automatically be 5.
+ experience per hit: 5
+ 
+ #Experience gained when killing specified ennemies with weapons. 
+ experience per kill:
+  creeper: 10
+  skeleton: 8
+  spider: 8
+  zombie: 8
+  slime: 5
+  ghast: 25
+  pig zombie: 10
+  enderman: 30
+  cave spider: 15
+  silverfish: 30
+  blaze: 20
+  magma cube: 20
+  bat: 5
+  witch: 20
+  pig: 5
+  sheep: 5 
+  cow: 5
+  chicken: 5
+  squid: 5
+  wolf: 15
+  mooshroom: 8
+  ocelot: 15
+  villager: 10
+  ender dragon: 2000
+  player: 50

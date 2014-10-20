@@ -1,0 +1,102 @@
+#Name of these stages
+basic:
+#at whose level items can access this stage?
+  level: 1
+#in what color will the item name be in this stage?
+  color: WHITE
+#If you want none, put '' or leave it blank 
+  prefix: ''
+#If you want stage color, put '' or leave it blank 
+  prefix color: ''
+  suffix: basic
+  suffix color: ''
+#If you want to add specific description on items having this stage, you can write it here without limits
+  description: These basic items provide from the furthest poor countries.. 
+#And then decide of it's color here.
+  description color: GRAY
+#effectives enchantments on items in this stage.
+  enchantments: none
+#Bonuses values on each type of bonuses of this stage. (0 = no bonus)
+  bonuses:
+    damage: 0
+    armor: 0
+    fishing: 0
+#Item rewards (Material name or ID) and their amount, and/or name and/or description when reaching this stage. 
+#Material name list => http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+#To put only the amount just put the amount
+#To add names to items, write [amount,name]
+#To add description write [amount,"name","description"]
+#To add description without naming, put [amount,"","description"] 
+#You can put bukkit colors by putting &+color character (exemple: the &3BEST &astone &3ever)
+#####NOTE THAT YOUR FIRST STAGE WILL NOT BE REWARDED TO AVOID ABUSE ISSUES#####
+  items reward:
+#
+good:
+  level: 5
+  color: YELLOW
+  prefix: good
+  prefix color: ''
+  suffix: ''
+  suffix color: ''
+  description: '' 
+  description color: ''
+  enchantments: none
+  bonuses:
+    damage: 2
+    armor: 2
+    fishing: 0.1
+  items reward:
+    STONE: 30
+    WIRE: [10, "&3Rope", "&6Let's start exploring the world!"]
+#
+better:
+  level: 10
+  color: GOLD
+  prefix: better
+  prefix color: ''
+  suffix: ''
+  suffix color: ''
+  description: ''
+  description color: ''
+  enchantments: none
+  bonuses:
+    damage: 4
+    armor: 4
+    fishing: 0.2
+  items reward:
+    IRON_INGOT: 32
+#
+great:
+  level: 15
+  color: RED
+  prefix: great
+  prefix color: ''
+  suffix: ''
+  suffix color: ''
+  description: ''
+  description color: ''
+  enchantments: none
+  bonuses:
+    damage: 6
+    armor: 6
+    fishing: 0.3
+  items reward:
+    GOLD_INGOT: 16
+#
+best:
+  level: 20
+  color: AQUA
+  prefix: best
+  prefix color: ''
+  suffix: ever
+  suffix color: ''
+  description: ''
+  description color: ''
+  enchantments: none
+  bonuses:
+    damage: 8
+    armor: 8
+    fishing: 0.4
+  items reward:
+    DIAMOND: 8
+#

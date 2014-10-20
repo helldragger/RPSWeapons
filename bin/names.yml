@@ -1,0 +1,80 @@
+#leveled item's description name. You can change them as you want.
+weapons:
+    BOW: bow
+
+    WOOD_SWORD: Wooden Sword
+    STONE_SWORD: Stone Sword
+    IRON_SWORD: Iron Sword
+    GOLD_SWORD: Golden Sword
+    DIAMOND_SWORD: Diamond Sword
+
+    WOOD_AXE: Wooden Axe
+    STONE_AXE: Stone Axe
+    IRON_AXE: Iron Axe
+    GOLD_AXE: Golden Axe
+    DIAMOND_AXE: Diamond Axe
+armor:
+    LEATHER_HELMET: Leather Cap
+    LEATHER_CHESTPLATE: Leather Tunic
+    LEATHER_LEGGINGS: Leather Pants
+    LEATHER_BOOTS: Leather Boots
+    
+    IRON_HELMET: Iron Helmet
+    IRON_CHESTPLATE: Iron Chestplate
+    IRON_LEGGINGS: Iron Leggings
+    IRON_BOOTS: Iron Boots
+    
+    GOLD_HELMET: Golden Helmet
+    GOLD_CHESTPLATE: Golden Chestplate
+    GOLD_LEGGINGS: Golden Leggings
+    GOLD_BOOTS: Golden Boots
+    
+    CHAINMAIL_HELMET: Chain Helmet
+    CHAINMAIL_CHESTPLATE: Chain Chestplate
+    CHAINMAIL_LEGGINGS: Chain Leggings
+    CHAINMAIL_BOOTS: Chain Boots
+    
+    DIAMOND_HELMET: Diamond Helmet
+    DIAMOND_CHESTPLATE: Diamond Chestplate
+    DIAMOND_LEGGINGS: Diamond Leggings
+    DIAMOND_BOOTS: Diamond Boots
+tools:
+    SHEARS: Shears
+
+    WOOD_PICKAXE: Wooden Pickaxe
+    WOOD_AXE: Wooden Axe
+    WOOD_SPADE: Wooden Shovel
+    WOOD_HOE: Wooden Hoe
+    
+    STONE_PICKAXE: Stone Pickaxe
+    STONE_AXE: Stone Axe
+    STONE_SPADE: Stone Shovel
+    STONE_HOE: Stone Hoe
+    
+    IRON_PICKAXE: Iron Pickaxe
+    IRON_AXE: Iron Axe
+    IRON_SPADE: Iron Shovel
+    IRON_HOE: Iron Hoe
+    
+    GOLD_PICKAXE: Golden Pickaxe
+    GOLD_AXE: Golden Axe
+    GOLD_SPADE: Golden Shovel
+    GOLD_HOE: Golden Hoe
+    
+    DIAMOND_PICKAXE: Diamond Pickaxe
+    DIAMOND_AXE: Diamond Axe
+    DIAMOND_SPADE: Diamond Shovel
+    DIAMOND_HOE: Diamond Hoe
+    
+    FISHING_ROD: Fishing Rod
+#leveled item's correct usage: when using one item, it wil gain xp only if it's used correctly, on correct blocks.
+correct tools:
+  PICKAXE: STONE,COBBLESTONE,COBBLESTONE_STAIRS,COBBLE_WALL,GOLD_ORE,IRON_ORE,COAL_ORE,LAPIS_ORE,SANDSTONE,OBSIDIAN,DIAMOND_ORE,REDSTONE_ORE,GLOWING_REDSTONE_ORE,NETHERRACK,GLOWSTONE,ENDER_STONE,EMERALD_ORE,MELON_BLOCK
+  AXE: LOG,LOG_2,WOOD,HUGE_MUSHROOM_1,HUGE_MUSHROOM_2,TRAP_DOOR,WOOD_STEP,WOOD_FENCE,WOOD_BUTTON,WOOD_DOUBLESTEP,WOOD_PLATE,WOOD_STAIRS,WORKBENCH,WOOD_DOOR,WOODEN_DOOR,COCOA,SIGN,JUKEBOX,PUMPKIN,JACK_O_LANTERN,DAYLIGHT_DETECTOR,DARK_OAK_STAIRS,JUNGLE_WOOD_STAIRS,ACACIA_STAIRS,SPRUCE_WOOD_STAIRS,BIRCH_WOOD_STAIRS,FENCE_GATE,BOOKSHELF,CHEST,TRAPPED_CHEST,VINES
+  SPADE: GRASS,DIRT,SAND,SOIL,SNOW_BLOCK,CLAY,SOUL_SAND,GRAVEL
+  HOE: GRASS,DIRT,MYCEL
+  SHEARS: LEAVES,LEAVES_2,GRASS,DEAD_BUSH,TRIPWIRE,WOOL,WEB,VINE
+items:
+    REDSTONE_TORCH_ON: Redstone Torch
+    REDSTONE_TORCH_OFF: Redstone Torch
+    CARROT_STICK: Carrot on a Stick
